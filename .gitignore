@@ -1,0 +1,11 @@
+# Local secrets — never commit
+secrets.local/
+*.local.txt
+config.local.env
+*.local.env
+# ...but keep the tracked example template
+!config.local.env.example
+
+# Build artifacts
+/thaidgate
+/thaidgate.exe
